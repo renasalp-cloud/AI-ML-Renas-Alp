@@ -1,0 +1,131 @@
+[
+  {
+    "id": 1,
+    "difficulty": "easy",
+    "source_hint": "company_handbook.pdf",
+    "question": "What minimum internet speed is required for remote work?",
+    "expected_answer": "A stable internet connection with at least 25 Mbps download and 5 Mbps upload is required."
+  },
+  {
+    "id": 2,
+    "difficulty": "easy",
+    "source_hint": "company_handbook.pdf",
+    "question": "How much is the one-time home office setup allowance?",
+    "expected_answer": "The one-time home office setup allowance is €500."
+  },
+  {
+    "id": 3,
+    "difficulty": "easy",
+    "source_hint": "meeting_notes.pdf",
+    "question": "Which day remains the mandatory in-office day after the policy update decision?",
+    "expected_answer": "Tuesday remains the mandatory in-office day company-wide."
+  },
+  {
+    "id": 4,
+    "difficulty": "easy",
+    "source_hint": "meeting_notes.pdf",
+    "question": "What was the decision about remote work days, and when does it take effect?",
+    "expected_answer": "The policy was updated to allow up to 4 remote days per week, effective Q3 2026."
+  },
+  {
+    "id": 5,
+    "difficulty": "easy",
+    "source_hint": "meeting_notes.pdf",
+    "question": "Which CRM vendor was selected in the meeting notes?",
+    "expected_answer": "HubSpot was selected."
+  },
+
+  {
+    "id": 6,
+    "difficulty": "medium",
+    "source_hint": "company_handbook.pdf + meeting_notes.pdf",
+    "question": "What is the current maximum number of remote work days per week, and what change was decided?",
+    "expected_answer": "The current policy allows up to 3 remote days per week. A decision was made to increase it to 4 remote days per week starting Q3 2026."
+  },
+  {
+    "id": 7,
+    "difficulty": "medium",
+    "source_hint": "company_handbook.pdf",
+    "question": "How does the approval process for hybrid work requests work?",
+    "expected_answer": "Employees submit a request in the NovaHR portal with preferred remote days, and the manager reviews it within five business days and documents approvals in NovaHR."
+  },
+  {
+    "id": 8,
+    "difficulty": "medium",
+    "source_hint": "meeting_notes.pdf",
+    "question": "Which in-office day was planned to be dropped in the recommendation discussed in the meeting notes?",
+    "expected_answer": "Thursday was planned to be dropped (leaving only Tuesday as mandatory)."
+  },
+  {
+    "id": 9,
+    "difficulty": "medium",
+    "source_hint": "meeting_notes.pdf",
+    "question": "What was the employee survey response rate mentioned in the meeting notes?",
+    "expected_answer": "The response rate was 82%."
+  },
+  {
+    "id": 10,
+    "difficulty": "medium",
+    "source_hint": "meeting_notes.pdf",
+    "question": "What reason was cited as the #2 reason for leaving, according to the meeting notes?",
+    "expected_answer": "\"Flexibility\" was cited as the #2 reason for leaving (after compensation)."
+  },
+  {
+    "id": 11,
+    "difficulty": "medium",
+    "source_hint": "meeting_notes.pdf",
+    "question": "What was the planned deadline for updating the employee handbook and communicating the remote work change?",
+    "expected_answer": "March 20."
+  },
+  {
+    "id": 12,
+    "difficulty": "medium",
+    "source_hint": "meeting_notes.pdf",
+    "question": "What was said about VPN capacity and remote work readiness?",
+    "expected_answer": "VPN capacity was expanded in 2024 and employees already have company laptops, so no additional investment was needed."
+  },
+
+  {
+    "id": 13,
+    "difficulty": "hard",
+    "source_hint": "security_policy.pdf",
+    "question": "List the data classification levels defined in the security policy.",
+    "expected_answer": "Public, Internal, Confidential, and Restricted."
+  },
+  {
+    "id": 14,
+    "difficulty": "hard",
+    "source_hint": "security_policy.pdf",
+    "question": "According to the security policy, what is required when handling Restricted data?",
+    "expected_answer": "Restricted data requires strict access controls and strong protection (e.g., encryption and limited access)."
+  },
+  {
+    "id": 15,
+    "difficulty": "hard",
+    "source_hint": "quarterly_report_q1_2026.pdf",
+    "question": "What were the key highlights or performance indicators reported for Q1 2026?",
+    "expected_answer": "The Q1 2026 report includes key performance indicators such as ARR/revenue trends and updates on product milestones and risks."
+  },
+  {
+    "id": 16,
+    "difficulty": "hard",
+    "source_hint": "product_guide.pdf",
+    "question": "What are the main differences between at least two plan tiers described in the product guide?",
+    "expected_answer": "The product guide describes multiple plan tiers with different feature access and limits; higher tiers include more advanced features and higher usage limits."
+  },
+
+  {
+    "id": 17,
+    "difficulty": "unanswerable",
+    "source_hint": "not in documents",
+    "question": "What is the company policy for opening an office on Mars?",
+    "expected_answer": "I cannot find this information in the provided documents."
+  },
+  {
+    "id": 18,
+    "difficulty": "unanswerable",
+    "source_hint": "not in documents",
+    "question": "What is the CEO's personal phone number?",
+    "expected_answer": "I cannot find this information in the provided documents."
+  }
+]
