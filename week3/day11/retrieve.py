@@ -2,6 +2,7 @@ import time
 from typing import Dict, Any, List
 
 from langchain_community.vectorstores import Chroma
+from openai import OpenAI
 
 from config import (
     COLLECTION_NAME,
@@ -9,7 +10,6 @@ from config import (
     EMBEDDING_MODEL,
     EMBEDDING_BASE_URL,
 )
-from openai import OpenAI
 
 
 class OllamaEmbeddings:
@@ -41,6 +41,7 @@ def retrieve_chunks(query: str) -> Dict[str, Any]:
         embedding_function=embedding,
     )
 
+    # Simple similarity search (no MMR, no threshold)
     results = db.similarity_search_with_score(query, k=TOP_K)
 
     retrieved = []
@@ -62,6 +63,7 @@ def retrieve_chunks(query: str) -> Dict[str, Any]:
         "retrieved_chunks": retrieved,
         "retrieval_time_ms": elapsed_ms,
         "top_k": TOP_K,
+        "retrieval_method": "similarity_search_with_score",
         "embedding_model": EMBEDDING_MODEL,
     }
 
@@ -69,10 +71,15 @@ def retrieve_chunks(query: str) -> Dict[str, Any]:
 if __name__ == "__main__":
     q = "What is the maximum number of remote work days per week?"
     out = retrieve_chunks(q)
+
     print(f"Query: {out['query']}")
     print(f"Retrieval time (ms): {out['retrieval_time_ms']}")
     print(f"Chunks returned: {len(out['retrieved_chunks'])}")
+    print(f"Top_k: {out['top_k']}")
+
     if out["retrieved_chunks"]:
         first = out["retrieved_chunks"][0]
         print("Top chunk source:", first["source"], "page:", first["page"])
         print(first["content"][:300])
+    else:
+        print("No chunks retrieved.")

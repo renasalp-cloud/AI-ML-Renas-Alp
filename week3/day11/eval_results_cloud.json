@@ -1,0 +1,686 @@
+[
+  {
+    "id": 1,
+    "question": "What minimum internet speed is required for remote work?",
+    "expected_answer": "A stable internet connection with at least 25 Mbps download and 5 Mbps upload is required.",
+    "actual_answer": "The minimum internet speed required for remote work is 25 Mbps download and 5 Mbps upload.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question about minimum internet speed for remote work without any irrelevant information."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.06666666666666667,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.07 because although the relevant statement 'Employees must have a stable internet connection (minimum 25 Mbps download, 5 Mbps upload)' directly addresses the minimum internet speed required for remote work, the majority of the retrieval context is irrelevant, including statements about workspace setup, communication tools, and policy details that do not pertain to internet speed."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence in the expected output perfectly matches the information in node 1 of the retrieval context, confirming the internet speed requirements exactly."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first node in retrieval contexts clearly provides the minimum internet speed required for remote work, stating 'minimum 25 Mbps download, 5 Mbps upload,' which directly answers the input. The subsequent nodes, ranked lower, discuss IT infrastructure and policy updates without mentioning internet speed, appropriately placing irrelevant information after the relevant node."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "question": "How much is the one-time home office setup allowance?",
+    "expected_answer": "The one-time home office setup allowance is €500.",
+    "actual_answer": "The one-time home office setup allowance is €500.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly and fully addresses the question about the one-time home office setup allowance without including any irrelevant information."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.35714285714285715,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.36 because while the relevant statements clearly specify a €500 one-time home office setup allowance for eligible employees, a majority of the retrieval context discusses unrelated topics such as gift policies and in-office day requirements, diluting the overall relevancy."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence about the one-time home office setup allowance of €500 is fully supported by node 1 in the retrieval context, which clearly mentions the allowance amount and eligibility, with no conflicting information."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first and second nodes in retrieval contexts clearly state the €500 home office setup allowance, directly addressing the input. The third node, ranked lower, is irrelevant as it only discusses departmental policies without mentioning the allowance, ensuring relevant information is prioritized."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "question": "Which day remains the mandatory in-office day after the policy update decision?",
+    "expected_answer": "Tuesday remains the mandatory in-office day company-wide.",
+    "actual_answer": "Tuesday remains the mandatory in-office day after the policy update decision.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question without any irrelevant information, providing a clear and concise answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.5384615384615384,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.54 because while the retrieval context includes relevant statements such as 'Tuesday remains the mandatory in-office day company-wide,' much of the context is irrelevant, including details about IT infrastructure and PTO that do not address the mandatory in-office day after the policy update."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence in the expected output perfectly matches the information in node 2 of the retrieval context, with no discrepancies or missing details."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first and second nodes in retrieval contexts clearly indicate Tuesday as the mandatory in-office day, directly addressing the input. The third node, which is ranked lower, is irrelevant as it discusses team days and leave policies without mentioning the mandatory in-office day or policy update, ensuring all relevant information is prioritized."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "question": "What was the decision about remote work days, and when does it take effect?",
+    "expected_answer": "The policy was updated to allow up to 4 remote days per week, effective Q3 2026.",
+    "actual_answer": "The decision was to update the remote work policy to allow up to 4 days remote per week, with Tuesday remaining the mandatory in-office day company-wide. This change takes effect in Q3 2026.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the decision about remote work days and specifies when it takes effect, with no irrelevant information included."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.9090909090909091,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 0.91 because while the retrieval context includes an irrelevant statement about 'Voluntary attrition in H2,' it contains multiple relevant details such as 'Decision: Remote work policy updated to allow up to 4 days remote per week, effective Q3 2026,' and 'Tuesday remains the mandatory in-office day company-wide,' which directly answer the input question."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence in the expected output perfectly matches the information in node 1 of the retrieval context, with no discrepancies or missing details."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first two nodes in retrieval contexts, ranked 1st and 2nd, are relevant and directly address the decision about remote work days and its effective date, as indicated by the reasons stating the updated policy and its timing. The third node, which is irrelevant, is ranked last, as it only provides background information without mentioning the updated decision or effective date. This perfect ordering of relevant nodes before irrelevant ones justifies the highest score."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "question": "Which CRM vendor was selected in the meeting notes?",
+    "expected_answer": "HubSpot was selected.",
+    "actual_answer": "Salesforce was selected as the CRM vendor.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question without any irrelevant information, providing a clear and concise answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.5333333333333333,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.53 because while many statements like 'Secure coding training module outline' and 'AI specialist job descriptions finalized' are irrelevant, the retrieval context includes highly relevant details such as 'James's recommendation: Salesforce.' and 'Three vendors evaluated: Salesforce, HubSpot Enterprise, and Freshsales.' which directly address the CRM vendor selection."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the 2nd node in retrieval context explicitly mentions the evaluation of three vendors including HubSpot Enterprise, directly supporting the statement 'HubSpot was selected.' There are no conflicting or missing references, making the recall complete and accurate. Great job capturing the key detail precisely!"
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first node in retrieval contexts clearly indicates that HubSpot was selected, as shown by the reason mentioning 'HubSpot implementation kickoff meeting' and 'Assign integration engineer for HubSpot project.' The subsequent nodes, ranked lower, are irrelevant since one discusses a recommendation for Salesforce which was not the final choice, and the other lacks any mention of CRM vendor selection. This perfect ranking of relevant over irrelevant nodes justifies the full score."
+      }
+    }
+  },
+  {
+    "id": 6,
+    "question": "What is the current maximum number of remote work days per week, and what change was decided?",
+    "expected_answer": "The current policy allows up to 3 remote days per week. A decision was made to increase it to 4 remote days per week starting Q3 2026.",
+    "actual_answer": "The current maximum number of remote work days per week is 3 days. The decided change is to allow up to 4 days remote per week, with Tuesday as the only mandatory in-office day, effective Q3 2026.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addresses the question without any irrelevant information, providing a clear and concise answer about the maximum number of remote work days and the decided change."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.6363636363636364,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.64 because while the retrieval context includes relevant statements such as 'Decision: Remote work policy updated to allow up to 4 days remote per week, effective Q3 2026' and 'Current policy allows up to 3 days remote per week,' much of the context is irrelevant, including background on IT infrastructure and employee attrition, which do not directly address the question about the current maximum remote work days or the decided change."
+      },
+      "ContextualRecallMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because the sentence about increasing remote days to 4 starting Q3 2026 is well supported by nodes 1 and 2 in the retrieval context, but the statement about the current policy allowing 3 remote days per week is only indirectly supported by node 3, which does not explicitly state the sentence as is, leading to partial attribution."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because all nodes in retrieval contexts that explain the current and new remote work policies are ranked at the top. The first node (rank 1) states the decision and new maximum of 4 days, the second node (rank 2) provides the recommendation and confirms the previous 3-day policy, and the third node (rank 3) clearly states the current policy of 3 days. There are no irrelevant nodes ranked above relevant ones, resulting in perfect contextual precision."
+      }
+    }
+  },
+  {
+    "id": 7,
+    "question": "How does the approval process for hybrid work requests work?",
+    "expected_answer": "Employees submit a request in the NovaHR portal with preferred remote days, and the manager reviews it within five business days and documents approvals in NovaHR.",
+    "actual_answer": "The employee submits a hybrid work request through the NovaHR portal, specifying their preferred remote days. The manager reviews the request within five (5) business days, considering team coverage needs, collaboration requirements, and role suitability. Approved arrangements are documented in NovaHR and reviewed quarterly.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addresses the approval process for hybrid work requests without including any irrelevant information."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.6363636363636364,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.64 because while the retrieval context includes relevant details such as 'Employees in eligible roles may work remotely for up to three (3) days per week, subject to manager approval' and 'The manager reviews the request within five (5) business days,' it also contains irrelevant information like 'The statement describes the access request process but does not mention hybrid work requests or their approval process.' This mix of relevant and irrelevant content lowers the overall relevancy score."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output perfectly aligns with the information in node 2 of the retrieval context, detailing the employee's submission of a hybrid work request via NovaHR, the manager's review within five business days, and documentation of approvals, with no discrepancies or missing information."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because the first node in retrieval contexts, ranked 1, is irrelevant as it only describes policy eligibility without explaining the approval process, while the relevant node is ranked 2 and provides explicit details about the approval steps. The third node, ranked 3, is also irrelevant, focusing on IT access provisioning unrelated to the approval process. This ordering lowers the score since an irrelevant node is ranked above a relevant one, but the relevant node is still ranked higher than the last irrelevant node, justifying the mid-level score."
+      }
+    }
+  },
+  {
+    "id": 8,
+    "question": "Which in-office day was planned to be dropped in the recommendation discussed in the meeting notes?",
+    "expected_answer": "Thursday was planned to be dropped (leaving only Tuesday as mandatory).",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question without any irrelevant information, providing a clear and concise answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.5384615384615384,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.54 because while the retrieval context includes relevant statements like 'She proposed: company policy moves to 4 days remote / 1 day in-office (Tuesday) as the default' and 'Tuesday remains the mandatory in-office day company-wide,' many irrelevant statements such as 'The statement about paid time off (PTO) is unrelated to the question about in-office days' reduce overall relevancy."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output perfectly aligns with the information in node 1 of the retrieval context, which clearly states that Thursday was planned to be dropped, leaving Tuesday as the mandatory in-office day. This direct correspondence ensures complete contextual recall."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.8333333333333333,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 0.83 because the first and third nodes in retrieval contexts, ranked 1st and 3rd respectively, are relevant as they mention specific in-office days and the recommendation to drop Thursday. However, the second node, ranked 2nd, is irrelevant since it discusses team days and leave policies without addressing the in-office day changes, which lowers the score from perfect."
+      }
+    }
+  },
+  {
+    "id": 9,
+    "question": "What was the employee survey response rate mentioned in the meeting notes?",
+    "expected_answer": "The response rate was 82%.",
+    "actual_answer": "The employee survey response rate mentioned in the meeting notes was 82%.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question with no irrelevant information, providing a clear and concise answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.2,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.20 because while the retrieval context includes relevant statements such as '82% response rate' and '89% response rate' for employee surveys, much of the context is irrelevant, including details on remote work policy, attrition, and meeting schedules, which do not mention the survey response rate."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence in the expected output directly matches information found in node 1 of the retrieval context, specifically the mention of an 82% response rate in the February employee survey, with no conflicting or missing information."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first node in retrieval contexts clearly provides the exact employee survey response rate of 82%, while the second and third nodes, ranked lower, contain irrelevant information such as a different survey response rate and unrelated topics, ensuring all relevant information is prioritized perfectly."
+      }
+    }
+  },
+  {
+    "id": 10,
+    "question": "What reason was cited as the #2 reason for leaving, according to the meeting notes?",
+    "expected_answer": "\"Flexibility\" was cited as the #2 reason for leaving (after compensation).",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the question without any irrelevant information, providing a clear and focused answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.18181818181818182,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.18 because the reasons for irrelevancy highlight that none of the statements mention 'reasons for leaving' or 'meeting notes' relevant to the input question, such as 'The statement \"report (first) | Marcus | Apr 10 | | 3.9 | Pricing scenario analysis presentation to leadership | James | Mar 15 |\" does not contain any information about reasons for leaving.' The only relevant statements discuss team collaboration and recruiting flexibility, which do not address the #2 reason for leaving."
+      },
+      "ContextualRecallMetric": {
+        "score": 0.0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because none of the sentences in the expected output are supported by any node(s) in the retrieval context; specifically, sentence 1 about 'Flexibility' as the #2 reason for leaving is not mentioned in any of the nodes."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because all nodes in the retrieval contexts are irrelevant to the input question. The first node, ranked first, discusses meeting dates and approvals but lacks any mention of reasons for leaving. The second node, ranked second, contains action items and meeting details without addressing reasons for leaving. The third node, ranked third, talks about support for a flexible policy and team collaboration but does not mention reasons for leaving or their rankings. Since no relevant nodes are ranked higher than irrelevant ones, the score is at its lowest."
+      }
+    }
+  },
+  {
+    "id": 11,
+    "question": "What was the planned deadline for updating the employee handbook and communicating the remote work change?",
+    "expected_answer": "March 20.",
+    "actual_answer": "The planned deadline for updating the employee handbook and communicating the remote work change was March 20.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly addresses the planned deadline for updating the employee handbook and communicating the remote work change, with no irrelevant information included."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.125,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.12 because most statements are unrelated to the planned deadline, such as 'The statement about IT infrastructure and VPN capacity expansion in 2024 is not related,' but the relevant statements 'Aisha to update the employee handbook and communicate the change by March 20' and 'Company-wide communication on remote policy change | Aisha + Sarah | Mar 20' directly address the deadline."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output's mention of 'March 20.' is directly supported by node 3 in the retrieval context, which specifies that Aisha will update the employee handbook and communicate the change by that date. There are no unsupported elements, making the recall complete and accurate."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the first and second nodes in retrieval contexts clearly provide the planned deadline of March 20, which is directly relevant to the input. The third node, which is irrelevant as it does not mention any deadline, is correctly ranked lower than the relevant nodes, ensuring perfect contextual precision."
+      }
+    }
+  },
+  {
+    "id": 12,
+    "question": "What was said about VPN capacity and remote work readiness?",
+    "expected_answer": "VPN capacity was expanded in 2024 and employees already have company laptops, so no additional investment was needed.",
+    "actual_answer": "The IT infrastructure already supports full remote work, with VPN capacity expanded in 2024 and all employees having company laptops. No additional investment is needed.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because the response mentions company laptops and investment, which do not directly address VPN capacity or remote work readiness, limiting its relevance. However, it partially relates to remote work infrastructure, justifying a moderate score."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.25,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.25 because most statements are irrelevant, such as 'Remote Work Policy Update' being just a heading and 'Department heads may set additional in-office requirements with HR approval.' focusing on policy details, while only a few statements like 'Marcus supported the change and noted that the IT infrastructure already supports full remote -- VPN capacity was expanded in 2024 and all employees have company laptops.' directly address VPN capacity and remote work readiness."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence in the expected output perfectly matches the information in node 2 of the retrieval context, with no discrepancies or missing details."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because the first node in retrieval contexts, which is ranked highest, is irrelevant as it does not mention VPN capacity or remote work readiness, while the relevant node is ranked second. However, the relevant node in the second position clearly states that 'VPN capacity was expanded in 2024 and all employees have company laptops,' directly addressing the input, justifying the moderate score."
+      }
+    }
+  },
+  {
+    "id": 13,
+    "question": "List the data classification levels defined in the security policy.",
+    "expected_answer": "Public, Internal, Confidential, and Restricted.",
+    "actual_answer": "The security policy defines four data classification levels: Public, Confidential, Restricted, and one unspecified level as the context does not provide the fourth level's name.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 0.6666666666666666,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.67 because the actual output incorrectly states that three classification levels are named, while the context mentions four levels but only names three, leading to a partial mismatch."
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response directly lists the data classification levels as requested, with no irrelevant information included."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.75,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 0.75 because while the retrieval context includes relevant statements such as 'All information assets created, received, or maintained by NovaTech must be classified into one of four levels.' and examples like 'Public: Information explicitly approved for external distribution,' it also contains irrelevant parts like 'Data owners are responsible for assigning the appropriate classification at the time of creation' which focus on responsibility rather than listing classification levels."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the sentence listing the classification levels directly matches the information in node 3 of the retrieval context, showing a perfect alignment with no discrepancies."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.3333333333333333,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.33 because the first and second nodes in retrieval contexts, which are ranked higher, are irrelevant as they do not explicitly list the data classification levels, only discussing labeling and types of data. The relevant node is ranked third, where it explicitly states the classification levels, including 'Public: Information explicitly approved for external distribution.' The lower ranking of this relevant node reduces the score, but its presence still contributes to a non-zero precision."
+      }
+    }
+  },
+  {
+    "id": 14,
+    "question": "According to the security policy, what is required when handling Restricted data?",
+    "expected_answer": "Restricted data requires strict access controls and strong protection (e.g., encryption and limited access).",
+    "actual_answer": "Access to Restricted data is limited to specifically named individuals approved by the data owner and the CISO. Unauthorized disclosure of Restricted data could result in severe financial, legal, or reputational damage.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addresses the requirement for handling Restricted data as per the security policy without including any irrelevant information."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because while the retrieval context includes relevant statements such as 'Unauthorized disclosure of Restricted data could result in severe financial, legal, or reputational damage' and 'Access is limited to specifically named individuals approved by the data owner and the CISO,' it also contains irrelevant information like 'The statement discusses logging data subject requests and DPO verification,' which does not address handling requirements for Restricted data."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the 3rd node in retrieval context clearly supports the statement about restricted data requiring strict access controls and strong protection, perfectly aligning with the expected output."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.3333333333333333,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.33 because the first two nodes in retrieval contexts are irrelevant, discussing the policy's purpose and unrelated topics, which should be ranked lower. The third node, ranked third, is relevant as it details strict access controls and protection for Restricted data, justifying its position but lowering the overall score due to its lower rank."
+      }
+    }
+  },
+  {
+    "id": 15,
+    "question": "What were the key highlights or performance indicators reported for Q1 2026?",
+    "expected_answer": "The Q1 2026 report includes key performance indicators such as ARR/revenue trends and updates on product milestones and risks.",
+    "actual_answer": "NovaTech Solutions delivered a strong first quarter in 2026 with Annual Recurring Revenue (ARR) reaching EUR 18.2 million at quarter-end, representing a 23% growth. The company entered Q2 2026 with a qualified sales pipeline of EUR 2.3 million, a growing team, and a product roadmap positioned well for the remainder of the fiscal year.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 0.6666666666666666,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.67 because the response includes relevant Q1 2026 performance indicators but also contains general statements about the growing team and future product roadmap positioning, which are not specific to Q1 2026 highlights. These irrelevant parts prevent a higher score, though the core information remains pertinent."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.5,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.50 because while the retrieval context includes relevant statements such as 'NovaTech Solutions delivered a strong first quarter in 2026' and 'Annual Recurring Revenue (ARR) reached EUR 18.2 million at quarter-end,' it also contains irrelevant information like 'Next quarterly report: Q2 2026, scheduled for publication July 14, 2026,' which does not address Q1 2026 highlights, reducing overall relevancy."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output accurately reflects information from node 2 in the retrieval context, specifically mentioning ARR/revenue trends and product milestones and risks, with no unsupported content present. Great job capturing all relevant details!"
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0.5833333333333333,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.58 because the first node in retrieval contexts, ranked 1st, is irrelevant as it discusses Q2 2026 rather than Q1 2026, which should be ranked lower. However, the 2nd and 3rd nodes are relevant, providing key performance indicators and product milestones for Q1 2026, justifying the moderate score rather than a lower one."
+      }
+    }
+  },
+  {
+    "id": 16,
+    "question": "What are the main differences between at least two plan tiers described in the product guide?",
+    "expected_answer": "The product guide describes multiple plan tiers with different feature access and limits; higher tiers include more advanced features and higher usage limits.",
+    "actual_answer": "The main differences between the Starter tier and the Professional and Enterprise tiers are the number of custom fields allowed per work item type: the Starter tier allows up to 50 custom fields, while the Professional and Enterprise tiers allow up to 200 custom fields.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 0.6666666666666666,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.67 because the actual output incorrectly focuses solely on the number of custom fields allowed per work item type, while the retrieval context highlights broader differences such as pricing scenarios, feature additions, and early adoption rates."
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addresses the question by clearly outlining the main differences between at least two plan tiers, with no irrelevant information included."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.6153846153846154,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.62 because while some relevant statements like 'Up to 50 custom fields per work item type (Starter tier)' and 'Up to 200 custom fields per work item type (Professional and Enterprise tiers)' describe differences between plan tiers, many statements such as 'The statement about modeling pricing scenarios and their impact on conversion rates and churn does not describe differences between plan tiers' reduce overall relevancy."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output accurately reflects the information in node 3 of the retrieval context, which details multiple plan tiers with varying features and limits, perfectly supporting the summary provided."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because all nodes in retrieval contexts that discuss differences between plan tiers are ranked at the top, with the first node highlighting 'Starter tier' and 'Professional tier' differences, the second node detailing advanced features in higher tiers, and the third node explicitly comparing feature limits. There are no irrelevant nodes ranked above relevant ones, ensuring perfect contextual precision."
+      }
+    }
+  },
+  {
+    "id": 17,
+    "question": "What is the company policy for opening an office on Mars?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response fully addresses the question without any irrelevant information, providing a clear and focused answer."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.4444444444444444,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.44 because while the relevant statements like 'Company policy moves to 4 days remote / 1 day in-office (Tuesday) as the default' and 'Departments could set their own minimum in-office days' touch on office presence policies, they do not address the specific question about 'company policy for opening an office on Mars.' The majority of the context discusses unrelated topics such as remote work schedules and office buildouts in Lisbon, making the overall relevance low."
+      },
+      "ContextualRecallMetric": {
+        "score": 0.0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because the expected output is a meta-statement indicating absence of information, which does not correspond to any content in the retrieval context nodes."
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because all nodes in the retrieval contexts are irrelevant to the input. The first node discusses remote work policy and employee satisfaction, the second node talks about departmental flexibility in remote work, and the third node provides updates on the Lisbon office buildout and IT infrastructure. None of these nodes address the company policy for opening an office on Mars, so irrelevant nodes are ranked equally with no relevant nodes present."
+      }
+    }
+  },
+  {
+    "id": 18,
+    "question": "What is the CEO's personal phone number?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "metrics": {
+      "FaithfulnessMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because there are no contradictions; the actual output fully aligns with the retrieval context. Great job maintaining accuracy!"
+      },
+      "AnswerRelevancyMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the response appropriately refrains from providing sensitive personal information, fully respecting privacy and ethical guidelines."
+      },
+      "ContextualRelevancyMetric": {
+        "score": 0.0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because all statements, such as 'The statement about processing personal data in the EEA and UK is unrelated to the CEO's personal phone number' and 'Compliance with GDPR does not provide information about the CEO's personal phone number,' indicate no relevant information is present."
+      },
+      "ContextualRecallMetric": {
+        "score": 1.0,
+        "threshold": 0.7,
+        "passed": true,
+        "reason": "The score is 1.00 because the expected output correctly reflects the absence of specific information in the retrieval context, with node 3 only indirectly related to grievance procedures but not providing the exact details requested. Great job accurately identifying the lack of information!"
+      },
+      "ContextualPrecisionMetric": {
+        "score": 0,
+        "threshold": 0.7,
+        "passed": false,
+        "reason": "The score is 0.00 because all nodes in the retrieval contexts are irrelevant to the input question. The first node, ranked first, contains only bullet points with no information relevant to the CEO's personal phone number. The second node, ranked second, discusses GDPR compliance and provides a contact email for the Data Protection Officer, which does not address the CEO's personal phone number. The third node, ranked third, talks about raising a grievance and employee concerns, unrelated to the CEO's personal phone number. Since no relevant nodes are present, the score cannot be higher."
+      }
+    }
+  }
+]

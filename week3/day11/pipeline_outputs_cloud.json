@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "question": "What minimum internet speed is required for remote work?",
+    "expected_answer": "A stable internet connection with at least 25 Mbps download and 5 Mbps upload is required.",
+    "actual_answer": "The minimum internet speed required for remote work is 25 Mbps download and 5 Mbps upload.",
+    "retrieved_context": [
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of €500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 4322,
+    "generation_time_ms": 829
+  },
+  {
+    "id": 2,
+    "question": "How much is the one-time home office setup allowance?",
+    "expected_answer": "The one-time home office setup allowance is €500.",
+    "actual_answer": "The one-time home office setup allowance is €500.",
+    "retrieved_context": [
+      "is €100. Gifts to clients must not exceed €50 per recipient per calendar year\nand must comply with the recipient's organization's gift policies.\nHome Office Setup Allowance\nEmployees approved for regular remote work (minimum two days per week) are\neligible for a one-time home office setup allowance of €500. This covers\nergonomic furniture, monitors, keyboards, and similar equipment. Receipts must\nbe submitted within sixty (60) days of purchase. This allowance is available once",
+      "quarterly.\nRequirements for Remote Work\nEmployees must have a stable internet connection (minimum 25 Mbps\ndownload, 5 Mbps upload).\nA dedicated, ergonomic workspace is recommended. NovaT ech offers a one-\ntime home office setup allowance of €500 for employees approved for\nregular remote work (see Section 6).\nEmployees must be reachable via Slack and email during core collaboration\nhours.\nAll remote work must comply with IT security policies (see Section 11),",
+      "AEs. He asked whether departments could set their own minimum in-office days\non top of the company baseline.\nSarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (T uesday and Thursday)."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2402,
+    "generation_time_ms": 641
+  },
+  {
+    "id": 3,
+    "question": "Which day remains the mandatory in-office day after the policy update decision?",
+    "expected_answer": "Tuesday remains the mandatory in-office day company-wide.",
+    "actual_answer": "Tuesday remains the mandatory in-office day after the policy update decision.",
+    "retrieved_context": [
+      "AEs. He asked whether departments could set their own minimum in-office days\non top of the company baseline.\nSarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (T uesday and Thursday).",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "Team Days\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n5. Leave and Time-Off Policy\nAnnual Leave (Paid Time Off)\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2438,
+    "generation_time_ms": 783
+  },
+  {
+    "id": 4,
+    "question": "What was the decision about remote work days, and when does it take effect?",
+    "expected_answer": "The policy was updated to allow up to 4 remote days per week, effective Q3 2026.",
+    "actual_answer": "The decision was to update the remote work policy to allow up to 4 days remote per week, with Tuesday remaining the mandatory in-office day company-wide. This change takes effect in Q3 2026.",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2423,
+    "generation_time_ms": 1396
+  },
+  {
+    "id": 5,
+    "question": "Which CRM vendor was selected in the meeting notes?",
+    "expected_answer": "HubSpot was selected.",
+    "actual_answer": "Salesforce was selected as the CRM vendor.",
+    "retrieved_context": [
+      "vendor selection (shortlist of 3) | Aisha | Feb 28 | | 2.4 | Secure coding training\nmodule outline | Marcus | Mar 15 | | 2.5 | HubSpot implementation kickoff\nmeeting | James | Feb 19 | | 2.6 | Assign integration engineer for HubSpot project\n| Marcus | Feb 17 | | 2.7 | v3.2 reporting performance fix deployment | Elena | Feb\n20 |",
+      "| Jan 22 | | 1.5 | AI specialist job descriptions finalized | Elena | Jan 19 |\n3. CRM Vendor Selection\nJames presented the shortlist for replacing our current CRM (Pipedrive). Three\nvendors evaluated: Salesforce, HubSpot Enterprise, and Freshsales.\nJames's recommendation: Salesforce. Reasoning -- better enterprise reporting,\nstronger integration ecosystem, and most of our larger prospects expect us to be\non Salesforce. Estimated cost: EUR 180K/year.\n• \n• \n• \n• \n•",
+      "report (first) | Marcus | Apr 10 | | 3.9 | Pricing scenario analysis presentation to\nleadership | James | Mar 15 |\nNext leadership team meeting scheduled for April 2, 2026.\nThese notes were reviewed and approved by Sarah Chen on the respective dates."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2538,
+    "generation_time_ms": 950
+  },
+  {
+    "id": 6,
+    "question": "What is the current maximum number of remote work days per week, and what change was decided?",
+    "expected_answer": "The current policy allows up to 3 remote days per week. A decision was made to increase it to 4 remote days per week starting Q3 2026.",
+    "actual_answer": "The current maximum number of remote work days per week is 3 days. The decided change is to allow up to 4 days remote per week, with Tuesday as the only mandatory in-office day, effective Q3 2026.",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "2025 was 14%, with \"flexibility\" cited as the #2 reason for leaving (after\ncompensation) - Competitor analysis shows 60% of comparable companies in\nDACH offer 4+ remote days\nAisha recommended expanding remote work from 3 days to 4 days per week,\nwith only Tuesday as the mandatory in-office day (dropping Thursday). This\nwould take effect Q3 2026 to align with the Lisbon office opening, since Lisbon\nemployees will be fully remote relative to Munich anyway.",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2441,
+    "generation_time_ms": 995
+  },
+  {
+    "id": 7,
+    "question": "How does the approval process for hybrid work requests work?",
+    "expected_answer": "Employees submit a request in the NovaHR portal with preferred remote days, and the manager reviews it within five business days and documents approvals in NovaHR.",
+    "actual_answer": "The employee submits a hybrid work request through the NovaHR portal, specifying their preferred remote days. The manager reviews the request within five (5) business days, considering team coverage needs, collaboration requirements, and role suitability. Approved arrangements are documented in NovaHR and reviewed quarterly.",
+    "retrieved_context": [
+      "4. Remote and Hybrid Work Policy\nNovaT ech Solutions supports hybrid work arrangements. Employees in eligible\nroles may work remotely for up to three (3) days per week, subject to\nmanager approval.\nEligibility\nAll employees who have completed their probationary period (six months) are\neligible for hybrid work unless their role requires physical presence (e.g., office\nmanagement, facilities, on-site IT support). Employees still within their",
+      "probationary period may work remotely for up to one (1) day per week with\nmanager approval.\nApproval Process\nThe employee submits a hybrid work request through the NovaHR portal,\nspecifying their preferred remote days.\nThe manager reviews the request within five (5) business days, considering\nteam coverage needs, collaboration requirements, and role suitability.\nApproved arrangements are documented in NovaHR and reviewed\nquarterly.\nRequirements for Remote Work",
+      "3.2 Access Provisioning\nAccess requests are submitted through the IT Service Portal and must include:\nthe system or resource requested, the business justification, the requested role\nor permission level, and the expected duration of access. All access requests for\nConfidential systems require manager approval. Access to Restricted systems\nadditionally requires CISO approval and a completed background verification.\nT emporary access (for contractors, project-based work, or cross-team"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2430,
+    "generation_time_ms": 954
+  },
+  {
+    "id": 8,
+    "question": "Which in-office day was planned to be dropped in the recommendation discussed in the meeting notes?",
+    "expected_answer": "Thursday was planned to be dropped (leaving only Tuesday as mandatory).",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "AEs. He asked whether departments could set their own minimum in-office days\non top of the company baseline.\nSarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (T uesday and Thursday).",
+      "Team Days\nEach team must designate at least one (1) mandatory in-office day per\nweek for collaborative work. These team days are set by the team lead and\ncommunicated at the start of each quarter.\n5. Leave and Time-Off Policy\nAnnual Leave (Paid Time Off)\nAll full-time employees receive twenty-five (25) days of paid time off (PTO) per\ncalendar year, in addition to public holidays observed at their respective office\nlocation. Part-time employees receive PTO on a pro-rata basis.",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2378,
+    "generation_time_ms": 969
+  },
+  {
+    "id": 9,
+    "question": "What was the employee survey response rate mentioned in the meeting notes?",
+    "expected_answer": "The response rate was 82%.",
+    "actual_answer": "The employee survey response rate mentioned in the meeting notes was 82%.",
+    "retrieved_context": [
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2",
+      "Celonis. Overseeing the data infrastructure modernization program\nsupporting Insight v3.0.\n6.4 Employee Engagement\nThe Q1 employee engagement survey (conducted in March, 89% response rate)\nshowed an overall engagement score of 78/100, stable compared to Q4 2025.\nAreas of strength included team collaboration (84/100) and manager\neffectiveness (81/100). Areas for improvement included career development\npathways (69/100) and cross-office communication (66/100), the latter likely",
+      "report (first) | Marcus | Apr 10 | | 3.9 | Pricing scenario analysis presentation to\nleadership | James | Mar 15 |\nNext leadership team meeting scheduled for April 2, 2026.\nThese notes were reviewed and approved by Sarah Chen on the respective dates."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2413,
+    "generation_time_ms": 878
+  },
+  {
+    "id": 10,
+    "question": "What reason was cited as the #2 reason for leaving, according to the meeting notes?",
+    "expected_answer": "\"Flexibility\" was cited as the #2 reason for leaving (after compensation).",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "report (first) | Marcus | Apr 10 | | 3.9 | Pricing scenario analysis presentation to\nleadership | James | Mar 15 |\nNext leadership team meeting scheduled for April 2, 2026.\nThese notes were reviewed and approved by Sarah Chen on the respective dates.",
+      "committing.\nDecision: Deferred to February meeting. James to prepare a full TCO analysis\nincluding implementation costs, training time, and data migration effort.\nAction Items: | # | Action | Owner | Deadline | |---|--------|-------|----------| | 1.6 | Full\nCRM TCO comparison (3-year) | James | Feb 5 | | 1.7 | Reference calls with 2\nHubSpot customers in B2B SaaS | James | Feb 10 |\nMeeting 2: Product Launch Review & Policy\nUpdates\nDate: February 12, 2026 Time: 10:00 -- 12:30 CET Location: Conference Room",
+      "Elena strongly supported the change, noting that her engineering teams\nalready struggle with the Thursday requirement since many of their collaboration\nsessions happen asynchronously. She also pointed out that recruiting for the\nLisbon office will be much easier with a flexible policy.\nJames had reservations about the Sales team specifically. He feels that in-\nperson collaboration is important for deal strategy sessions and onboarding new"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2518,
+    "generation_time_ms": 582
+  },
+  {
+    "id": 11,
+    "question": "What was the planned deadline for updating the employee handbook and communicating the remote work change?",
+    "expected_answer": "March 20.",
+    "actual_answer": "The planned deadline for updating the employee handbook and communicating the remote work change was March 20.",
+    "retrieved_context": [
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "Company-wide communication on remote policy change | Aisha + Sarah | Mar 20\n| | 3.3 | Update IT security policy (password rotation) | Marcus | Mar 12 | | 3.4 |\nCompany-wide communication on password policy change | Marcus | Mar 12 | |\n3.5 | NovaT ech Copilot project plan and staffing timeline | Marcus | Mar 19 | | 3.6 |\nPost AI/ML specialist roles with updated comp bands | Aisha | Mar 7 | | 3.7 |\nLisbon office readiness report | Elena | Mar 28 | | 3.8 | Monthly Copilot progress",
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2450,
+    "generation_time_ms": 679
+  },
+  {
+    "id": 12,
+    "question": "What was said about VPN capacity and remote work readiness?",
+    "expected_answer": "VPN capacity was expanded in 2024 and employees already have company laptops, so no additional investment was needed.",
+    "actual_answer": "The IT infrastructure already supports full remote work, with VPN capacity expanded in 2024 and all employees having company laptops. No additional investment is needed.",
+    "retrieved_context": [
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2",
+      "Marcus supported the change and noted that the IT infrastructure already\nsupports full remote -- VPN capacity was expanded in 2024 and all employees\nhave company laptops. No additional investment needed.\nDecision: Remote work policy updated to allow up to 4 days remote per week,\neffective Q3 2026. T uesday remains the mandatory in-office day company-wide.\nDepartment heads may set additional in-office requirements with HR approval.\nAisha to update the employee handbook and communicate the change by March\n20.",
+      "Park (VP Sales) -- remote (London) - Aisha Patel (Head of HR) -- in person\n1. Q1 Hiring Targets\nSarah opened with an overview of headcount planning for Q1. Current employee\ncount stands at 396 as of January 1, with approved budget for 28 new hires\nacross departments.\nEngineering (Elena): Requested 14 new hires -- 8 backend engineers, 4\nfrontend, and 2 ML/AI specialists. Elena emphasized that the ProjectHub v3.2\nrelease timeline is tight and we are already stretched thin after losing three"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2396,
+    "generation_time_ms": 1096
+  },
+  {
+    "id": 13,
+    "question": "List the data classification levels defined in the security policy.",
+    "expected_answer": "Public, Internal, Confidential, and Restricted.",
+    "actual_answer": "The security policy defines four data classification levels: Public, Confidential, Restricted, and one unspecified level as the context does not provide the fourth level's name.",
+    "retrieved_context": [
+      "2.3 Labeling\nAll documents and data stores containing Confidential or Restricted data must be\nclearly labeled with the appropriate classification. Digital documents must\ninclude the classification level in the header or footer. Email containing\nConfidential or Restricted data must include the classification in the subject line\nprefix (e.g., \"[CONFIDENTIAL]\"). Database tables and cloud storage buckets\ncontaining Confidential or Restricted data must be tagged accordingly in the\nasset management system.",
+      "authentication credentials, encryption keys, customer payment card data, health\nrecords, data subject to specific regulatory requirements (such as GDPR special\ncategory data), penetration test results, and incident response forensic evidence.\nUnauthorized disclosure of Restricted data could result in severe financial, legal,\nor reputational damage. Access is limited to specifically named individuals\napproved by the data owner and the CISO.\n2.2 Data Classification Handling Requirements",
+      "2. Data Classification\n2.1 Classification Levels\nAll information assets created, received, or maintained by NovaT ech must be\nclassified into one of four levels. Data owners are responsible for assigning the\nappropriate classification at the time of creation. Classification must be reviewed\nwhenever the nature or sensitivity of the data changes.\nPublic: Information explicitly approved for external distribution. This includes\nmarketing materials, published blog posts, press releases, and publicly available"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2494,
+    "generation_time_ms": 836
+  },
+  {
+    "id": 14,
+    "question": "According to the security policy, what is required when handling Restricted data?",
+    "expected_answer": "Restricted data requires strict access controls and strong protection (e.g., encryption and limited access).",
+    "actual_answer": "Access to Restricted data is limited to specifically named individuals approved by the data owner and the CISO. Unauthorized disclosure of Restricted data could result in severe financial, legal, or reputational damage.",
+    "retrieved_context": [
+      "Solutions (\"NovaT ech,\" \"the Company\"). The policy exists to safeguard the\nconfidentiality, integrity, and availability of all data entrusted to NovaT ech by its\ncustomers, partners, employees, and other stakeholders.\n1.2 Scope\nThis policy applies to all NovaT ech employees, contractors, temporary staff,\ninterns, and third-party service providers who access, process, store, or transmit\nNovaT ech information assets. It covers all information systems, networks,",
+      "All data subject requests are logged in the DSR Tracking System, and completion\nis verified by the DPO.\n8.4 Data Protection Impact Assessments\nA Data Protection Impact Assessment (DPIA) is required before implementing any\nnew processing activity that is likely to result in a high risk to the rights and\nfreedoms of natural persons. Triggers for a mandatory DPIA include: large-scale\nprocessing of special category data, systematic monitoring of public areas,",
+      "authentication credentials, encryption keys, customer payment card data, health\nrecords, data subject to specific regulatory requirements (such as GDPR special\ncategory data), penetration test results, and incident response forensic evidence.\nUnauthorized disclosure of Restricted data could result in severe financial, legal,\nor reputational damage. Access is limited to specifically named individuals\napproved by the data owner and the CISO.\n2.2 Data Classification Handling Requirements"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2446,
+    "generation_time_ms": 1411
+  },
+  {
+    "id": 15,
+    "question": "What were the key highlights or performance indicators reported for Q1 2026?",
+    "expected_answer": "The Q1 2026 report includes key performance indicators such as ARR/revenue trends and updates on product milestones and risks.",
+    "actual_answer": "NovaTech Solutions delivered a strong first quarter in 2026 with Annual Recurring Revenue (ARR) reaching EUR 18.2 million at quarter-end, representing a 23% growth. The company entered Q2 2026 with a qualified sales pipeline of EUR 2.3 million, a growing team, and a product roadmap positioned well for the remainder of the fiscal year.",
+    "retrieved_context": [
+      "Next quarterly report: Q2 2026, scheduled for publication July 14, 2026.",
+      "NovaTech Solutions -- Quarterly\nBusiness Report\nQ1 2026 (January -- March)\nClassification: Internal -- Board & Leadership Distribution Only\nPrepared by: Office of the CFO | Approved by: Sarah Chen, CEO\nReport Date: April 14, 2026\n1. Executive Summary\nNovaT ech Solutions delivered a strong first quarter in 2026, continuing the\ngrowth trajectory established in the second half of 2025. Annual Recurring\nRevenue (ARR) reached EUR 18.2 million at quarter-end, representing a 23%",
+      "competitor, launched AI-driven project analytics features in late March. These\ndevelopments require focused attention in the coming quarter.\nOverall, we enter Q2 2026 in a position of strength, with a qualified sales pipeline\nof EUR 2.3 million, a growing team, and a product roadmap that positions us well\nfor the remainder of the fiscal year."
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2406,
+    "generation_time_ms": 1448
+  },
+  {
+    "id": 16,
+    "question": "What are the main differences between at least two plan tiers described in the product guide?",
+    "expected_answer": "The product guide describes multiple plan tiers with different feature access and limits; higher tiers include more advanced features and higher usage limits.",
+    "actual_answer": "The main differences between the Starter tier and the Professional and Enterprise tiers are the number of custom fields allowed per work item type: the Starter tier allows up to 50 custom fields, while the Professional and Enterprise tiers allow up to 200 custom fields.",
+    "retrieved_context": [
+      "suggested EUR 35 as a more conservative step.\nElena pointed out that the Starter tier has grown significantly in functionality\nsince the last pricing change (18 months ago) and the increase is justified by the\nvalue delivered.\nSarah agreed with the direction but asked James to model three scenarios (EUR\n35, EUR 37, EUR 39) with projected impact on conversion rates and churn. She\nalso wants to see how this aligns with the planned Professional tier feature\nadditions in H2.",
+      "Professional and Enterprise tiers. Early adoption has been strong, with 34%\nof eligible accounts activating the feature within the first six weeks.\nSmart Dependency Mapping: Automatically detects and visualizes task\ndependencies based on project descriptions and historical patterns.\nReduces manual setup time for complex projects by an estimated 40%.\nEnhanced Gantt View: Rebuilt Gantt chart component with improved\nperformance (3x faster rendering for projects with 500+ tasks) and new",
+      "2.2 Core Features\nWork Item Management\nProjectHub organizes work into a flexible hierarchy: Programs > Projects >\nEpics > Tasks > Subtasks. Each level supports custom fields, statuses,\npriorities, and assignees. Work items can be linked with dependency\nrelationships (blocks, is-blocked-by, relates-to, duplicates) and can span multiple\nprojects within a program.\nUp to 50 custom fields per work item type (Starter tier)\nUp to 200 custom fields per work item type (Professional and Enterprise\ntiers)"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2427,
+    "generation_time_ms": 1420
+  },
+  {
+    "id": 17,
+    "question": "What is the company policy for opening an office on Mars?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "1. Remote Work Policy Update\nAisha opened with a review of the current remote work policy and employee\nsatisfaction data. Current policy allows up to 3 days remote per week, with\nT uesday and Thursday as mandatory in-office days.\nKey data points from the February employee survey (82% response\nrate): - 71% of employees want more remote flexibility - 18% said the current\npolicy is fine - 11% actually want more in-office time - Voluntary attrition in H2",
+      "AEs. He asked whether departments could set their own minimum in-office days\non top of the company baseline.\nSarah liked the idea of a company-wide baseline with departmental flexibility.\nShe proposed: company policy moves to 4 days remote / 1 day in-office\n(Tuesday) as the default, but department heads can require up to 2 in-\noffice days if justified by role requirements. James said that works for him --\nhe would keep Sales at 2 days in-office (T uesday and Thursday).",
+      "4. Miscellaneous Updates\nLisbon office update (Elena): Buildout is on track. Furniture ordered, IT\ninfrastructure being installed week of March 10. First employees expected to\nstart on-site April 14 (two weeks behind original April 1 target due to permit\ndelays). Elena has been interviewing locally and has 3 offers out for senior\nbackend roles.\nHubSpot migration (James): Implementation started on schedule. Data\nmigration from Pipedrive is 60% complete. On track for April 15 go-live. One"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2463,
+    "generation_time_ms": 890
+  },
+  {
+    "id": 18,
+    "question": "What is the CEO's personal phone number?",
+    "expected_answer": "I cannot find this information in the provided documents.",
+    "actual_answer": "I cannot find this information in the provided documents.",
+    "retrieved_context": [
+      "• \n• \n• \n• \n• \n•",
+      "8. GDPR Compliance Procedures\n8.1 Applicability\nNovaT ech processes personal data of individuals located in the European\nEconomic Area (EEA) and the United Kingdom. As such, NovaT ech complies with\nthe General Data Protection Regulation (EU) 2016/679 (\"GDPR\") and the UK\nGDPR. The Data Protection Officer (DPO) serves as the primary point of contact\nfor all GDPR-related matters and can be reached at dpo@novatech.io.\n8.2 Lawful Basis for Processing",
+      "Raising a Grievance\nEmployees who have a concern about their treatment at work, their working\nconditions, or a colleague's behavior should first attempt to resolve the matter\ninformally with their manager. If the concern involves the manager, or if informal"
+    ],
+    "model": "gpt-4.1-mini",
+    "retrieval_time_ms": 2429,
+    "generation_time_ms": 566
+  }
+]

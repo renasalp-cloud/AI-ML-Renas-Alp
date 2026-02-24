@@ -1,0 +1,206 @@
+{
+  "total_questions": 18,
+  "total_time_ms": 107296,
+  "correct_count": 4,
+  "accuracy": 0.22,
+  "results": [
+    {
+      "id": 1,
+      "difficulty": "easy",
+      "question": "What minimum internet speed is required for remote work?",
+      "expected_answer": "A stable internet connection with at least 25 Mbps download and 5 Mbps upload is required.",
+      "model_answer": "25 Mbps download, 5 Mbps upload.",
+      "correct": false,
+      "retrieval_time_ms": 5990,
+      "generation_time_ms": 4847,
+      "total_time_ms": 11091
+    },
+    {
+      "id": 2,
+      "difficulty": "easy",
+      "question": "How much is the one-time home office setup allowance?",
+      "expected_answer": "The one-time home office setup allowance is \u20ac500.",
+      "model_answer": "\u20ac500.",
+      "correct": false,
+      "retrieval_time_ms": 3393,
+      "generation_time_ms": 2413,
+      "total_time_ms": 6206
+    },
+    {
+      "id": 3,
+      "difficulty": "easy",
+      "question": "Which day remains the mandatory in-office day after the policy update decision?",
+      "expected_answer": "Tuesday remains the mandatory in-office day company-wide.",
+      "model_answer": "Tuesday remains the mandatory in-office day company-wide.",
+      "correct": true,
+      "retrieval_time_ms": 2468,
+      "generation_time_ms": 2717,
+      "total_time_ms": 5500
+    },
+    {
+      "id": 4,
+      "difficulty": "easy",
+      "question": "What was the decision about remote work days, and when does it take effect?",
+      "expected_answer": "The policy was updated to allow up to 4 remote days per week, effective Q3 2026.",
+      "model_answer": "The decision is to update the remote work policy to allow up to 4 days remote per week, effective Q3 2026. Tuesday remains the mandatory in-office day company-wide.",
+      "correct": false,
+      "retrieval_time_ms": 2368,
+      "generation_time_ms": 3141,
+      "total_time_ms": 5758
+    },
+    {
+      "id": 5,
+      "difficulty": "easy",
+      "question": "Which CRM vendor was selected in the meeting notes?",
+      "expected_answer": "HubSpot was selected.",
+      "model_answer": "Salesforce.",
+      "correct": false,
+      "retrieval_time_ms": 2418,
+      "generation_time_ms": 2687,
+      "total_time_ms": 5331
+    },
+    {
+      "id": 6,
+      "difficulty": "medium",
+      "question": "What is the current maximum number of remote work days per week, and what change was decided?",
+      "expected_answer": "The current policy allows up to 3 remote days per week. A decision was made to increase it to 4 remote days per week starting Q3 2026.",
+      "model_answer": "The current maximum number of remote work days per week is 3. The decision is to update the policy to allow up to 4 days remote per week, effective Q3 2026.",
+      "correct": false,
+      "retrieval_time_ms": 2361,
+      "generation_time_ms": 3123,
+      "total_time_ms": 5708
+    },
+    {
+      "id": 7,
+      "difficulty": "medium",
+      "question": "How does the approval process for hybrid work requests work?",
+      "expected_answer": "Employees submit a request in the NovaHR portal with preferred remote days, and the manager reviews it within five business days and documents approvals in NovaHR.",
+      "model_answer": "The employee submits a hybrid work request through the NovaHR portal, specifying their preferred remote days. The manager reviews the request within five (5) business days, considering team coverage needs, collaboration requirements, and role suitability. Approved arrangements are documented in NovaHR and reviewed quarterly.",
+      "correct": false,
+      "retrieval_time_ms": 4116,
+      "generation_time_ms": 3452,
+      "total_time_ms": 7799
+    },
+    {
+      "id": 8,
+      "difficulty": "medium",
+      "question": "Which in-office day was planned to be dropped in the recommendation discussed in the meeting notes?",
+      "expected_answer": "Thursday was planned to be dropped (leaving only Tuesday as mandatory).",
+      "model_answer": "Tuesday, as part of the company-wide baseline policy.",
+      "correct": false,
+      "retrieval_time_ms": 2386,
+      "generation_time_ms": 2783,
+      "total_time_ms": 5395
+    },
+    {
+      "id": 9,
+      "difficulty": "medium",
+      "question": "What was the employee survey response rate mentioned in the meeting notes?",
+      "expected_answer": "The response rate was 82%.",
+      "model_answer": "The February employee survey had an 82% response rate.",
+      "correct": false,
+      "retrieval_time_ms": 2409,
+      "generation_time_ms": 2757,
+      "total_time_ms": 5391
+    },
+    {
+      "id": 10,
+      "difficulty": "medium",
+      "question": "What reason was cited as the #2 reason for leaving, according to the meeting notes?",
+      "expected_answer": "\"Flexibility\" was cited as the #2 reason for leaving (after compensation).",
+      "model_answer": "I cannot find this information in the provided documents.",
+      "correct": false,
+      "retrieval_time_ms": 2357,
+      "generation_time_ms": 2772,
+      "total_time_ms": 5363
+    },
+    {
+      "id": 11,
+      "difficulty": "medium",
+      "question": "What was the planned deadline for updating the employee handbook and communicating the remote work change?",
+      "expected_answer": "March 20.",
+      "model_answer": "March 20.",
+      "correct": true,
+      "retrieval_time_ms": 2347,
+      "generation_time_ms": 2602,
+      "total_time_ms": 5176
+    },
+    {
+      "id": 12,
+      "difficulty": "medium",
+      "question": "What was said about VPN capacity and remote work readiness?",
+      "expected_answer": "VPN capacity was expanded in 2024 and employees already have company laptops, so no additional investment was needed.",
+      "model_answer": "The IT infrastructure already supports full remote work, with VPN capacity expanded in 2024, and all employees have company laptops, requiring no additional investment.",
+      "correct": false,
+      "retrieval_time_ms": 2356,
+      "generation_time_ms": 2970,
+      "total_time_ms": 5549
+    },
+    {
+      "id": 13,
+      "difficulty": "hard",
+      "question": "List the data classification levels defined in the security policy.",
+      "expected_answer": "Public, Internal, Confidential, and Restricted.",
+      "model_answer": "Public, Confidential, Restricted, and (no 4th level is mentioned).",
+      "correct": false,
+      "retrieval_time_ms": 2378,
+      "generation_time_ms": 2787,
+      "total_time_ms": 5388
+    },
+    {
+      "id": 14,
+      "difficulty": "hard",
+      "question": "According to the security policy, what is required when handling Restricted data?",
+      "expected_answer": "Restricted data requires strict access controls and strong protection (e.g., encryption and limited access).",
+      "model_answer": "Access is limited to specifically named individuals approved by the data owner and the CISO.",
+      "correct": false,
+      "retrieval_time_ms": 2406,
+      "generation_time_ms": 2765,
+      "total_time_ms": 5394
+    },
+    {
+      "id": 15,
+      "difficulty": "hard",
+      "question": "What were the key highlights or performance indicators reported for Q1 2026?",
+      "expected_answer": "The Q1 2026 report includes key performance indicators such as ARR/revenue trends and updates on product milestones and risks.",
+      "model_answer": "Annual Recurring Revenue (ARR) reached EUR 18.2 million at quarter-end, representing a 23% increase from the same period in 2025. NovaTech Solutions delivered a strong first quarter in 2026, continuing the growth trajectory established in the second half of 2025.",
+      "correct": false,
+      "retrieval_time_ms": 2336,
+      "generation_time_ms": 3400,
+      "total_time_ms": 5986
+    },
+    {
+      "id": 16,
+      "difficulty": "hard",
+      "question": "What are the main differences between at least two plan tiers described in the product guide?",
+      "expected_answer": "The product guide describes multiple plan tiers with different feature access and limits; higher tiers include more advanced features and higher usage limits.",
+      "model_answer": "The Starter tier has up to 50 custom fields, while the Professional and Enterprise tiers have up to 200 custom fields.",
+      "correct": false,
+      "retrieval_time_ms": 2404,
+      "generation_time_ms": 2905,
+      "total_time_ms": 5547
+    },
+    {
+      "id": 17,
+      "difficulty": "unanswerable",
+      "question": "What is the company policy for opening an office on Mars?",
+      "expected_answer": "I cannot find this information in the provided documents.",
+      "model_answer": "I cannot find this information in the provided documents.",
+      "correct": true,
+      "retrieval_time_ms": 2361,
+      "generation_time_ms": 2753,
+      "total_time_ms": 5355
+    },
+    {
+      "id": 18,
+      "difficulty": "unanswerable",
+      "question": "What is the CEO's personal phone number?",
+      "expected_answer": "I cannot find this information in the provided documents.",
+      "model_answer": "I cannot find this information in the provided documents.",
+      "correct": true,
+      "retrieval_time_ms": 2374,
+      "generation_time_ms": 2744,
+      "total_time_ms": 5347
+    }
+  ]
+}
